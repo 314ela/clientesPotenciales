@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Eliminar datos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Eliminar" />
+    <meta name="author" content="ColorlibHQ" />
+    <meta
+      name="description"
+      content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS."
+    />
+    <meta
+      name="keywords"
+      content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, colorlibhq, colorlibhq dashboard, colorlibhq admin dashboard"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
+      integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.10.1/styles/overlayscrollbars.min.css"
+      integrity="sha256-tZHrRjVqNSRyWg2wbppGnT833E/Ys0DHWGwT04GiqQg="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha256-9kPW/n5nn53j4WMRYAxe9c1rCY96Oogo/MKSVdKzPmI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="card card-primary card-outline mb-4">
+      <div class="card-header">
+        <div class="card-title">¿Estas seguro quieres eliminar a "Mercury Productions"?</div>
+      </div>
+      <form>
+        <div class="card-body">
+          <div class="mb-3">
+            <label for="empresaInput" class="form-label">Empresa a la cual se trabaja</label>
+            <input type="text" class="form-control" id="empresaInput" value="Mercury Productions" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" value="freddie.mercury@mercuryproductions.com" readonly>
+            <div id="emailHelp" class="form-text">Usar el de la empresa, no el propio.</div>
+          </div>
+          <div class="mb-3">
+            <label for="contactoInput" class="form-label">Contacto</label>
+            <input type="text" class="form-control" id="contactoInput" value="Freddie Mercury" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="telefonoInput" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="telefonoInput" value="+52 55 1234 5678" readonly>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+          </div>
+        </div>
+        <div class="card-footer">
+            <a href="/Listado" class="btn btn-primary text-white text-center">Eliminar datos</a>
+        </div>
+        <div class="card-footer">
+            <a href="/Listado" class="btn btn-danger text-white text-center">Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
